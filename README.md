@@ -42,7 +42,6 @@ DiscordLLM is a powerful Discord bot that brings the capabilities of large langu
    - Copy the bot token
 
 4. Configure the bot:
-   - Rename `config.example.json` to `config.json`
    - Replace `YOUR_BOT_TOKEN` with your actual bot token
 
 5. Install and run Ollama:
