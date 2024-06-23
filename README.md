@@ -59,7 +59,6 @@ DiscordLLM is a powerful Discord bot that brings the capabilities of large langu
 Once the bot is running and invited to your server, you can interact with it using slash commands:
 
 - `/ask <your question>`: Ask the AI a question
-- `/help`: Display help information about the bot
 
 Example:
 ```
