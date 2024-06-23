@@ -66,22 +66,6 @@ Example:
 /ask What is the capital of France?
 ```
 
-## 🛠 Configuration
-
-You can customize the bot's behavior by modifying the `config.json` file:
-
-```json
-{
-  "bot_token": "YOUR_BOT_TOKEN",
-  "default_model": "qwen2:1.5b",
-  "ollama_url": "http://localhost:11434"
-}
-```
-
-- `bot_token`: Your Discord bot token
-- `default_model`: The default Ollama model to use
-- `ollama_url`: The URL where Ollama is running
-
 ## 🧠 Supported Models
 
 Currently, DiscordLLM is configured to use the Qwen2 1.5B model, but it can be easily adapted to use any model supported by Ollama. To use a different model:
