@@ -42,7 +42,6 @@ DiscordLLM is a powerful Discord bot that brings the capabilities of large langu
    - Copy the bot token
 
 4. Configure the bot:
-   - Rename `config.example.json` to `config.json`
    - Replace `YOUR_BOT_TOKEN` with your actual bot token
 
 5. Install and run Ollama:
@@ -60,28 +59,11 @@ DiscordLLM is a powerful Discord bot that brings the capabilities of large langu
 Once the bot is running and invited to your server, you can interact with it using slash commands:
 
 - `/ask <your question>`: Ask the AI a question
-- `/help`: Display help information about the bot
 
 Example:
 ```
 /ask What is the capital of France?
 ```
-
-## 🛠 Configuration
-
-You can customize the bot's behavior by modifying the `config.json` file:
-
-```json
-{
-  "bot_token": "YOUR_BOT_TOKEN",
-  "default_model": "qwen2:1.5b",
-  "ollama_url": "http://localhost:11434"
-}
-```
-
-- `bot_token`: Your Discord bot token
-- `default_model`: The default Ollama model to use
-- `ollama_url`: The URL where Ollama is running
 
 ## 🧠 Supported Models
 
